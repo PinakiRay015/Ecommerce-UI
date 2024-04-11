@@ -7,6 +7,7 @@ import About from './components/About'
 import Signup from './components/Signup'
 import Wishlist from './components/Wishlist'
 import Cart from './components/Cart'
+import TopNav from './components/TopNav'
 const App = () => {
 
   const router = createBrowserRouter([
@@ -38,6 +39,7 @@ const App = () => {
 
   return (
     <div>
+      <TopNav/>
       <RouterProvider router={router}/>
     </div>
   )
