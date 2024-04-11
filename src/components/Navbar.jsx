@@ -10,10 +10,10 @@ const Navbar = () => {
 
         {/* navbar  */}
         <nav className="flex gap-[48px] ml-[10rem]">
-          <li className="list-none font-poppins text-[16px] cursor-pointer">Home</li>
-          <li className="list-none font-poppins text-[16px] cursor-pointer">Contact</li>
-          <li className="list-none font-poppins text-[16px] cursor-pointer">About</li>
-          <li className="list-none font-poppins text-[16px] cursor-pointer">Sign Up</li>
+          <a href="/"><li className="list-none font-poppins text-[16px] cursor-pointer">Home</li></a>
+          <a href="/"><li className="list-none font-poppins text-[16px] cursor-pointer">Contact</li></a>
+          <a href="/"><li className="list-none font-poppins text-[16px] cursor-pointer">About</li></a>
+          <a href="/"><li className="list-none font-poppins text-[16px] cursor-pointer">Sign Up</li></a>
         </nav>
 
         {/* search bar  */}
