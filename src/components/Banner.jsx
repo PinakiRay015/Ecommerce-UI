@@ -4,7 +4,7 @@ import appleLogo from '../assets/appleLogo.png'
 import rightArrowWhite from '../assets/rightArrowWhite.png'
 const Banner = () => {
   return (
-    <div className='w-[892px] h-[344px] bg-black flex justify-between'>
+    <div className='w-[892px] h-[344px] bg-black flex justify-between mt-10'>
         <div className='ml-[64px] mt-[58px]'>
             <div className='flex items-center gap-[24px]'>
                 <img src={appleLogo} alt="" />

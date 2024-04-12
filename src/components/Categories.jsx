@@ -2,7 +2,8 @@ import React from "react";
 import miniArrow from "../assets/miniArrowRightBlack.png";
 const Categories = () => {
   return (
-    <div className="border-r w-[290px] flex flex-col justify-between font-poppins font-light">
+    <div className="border-r w-[290px] pt-10">
+        <div className="flex flex-col justify-between font-poppins font-light h-full">
       <a className="flex justify-between items-center pr-4" href="/women">
         <li className="list-none hover:font-normal">Women's Fashion</li>
         <img src={miniArrow} alt="" />
@@ -39,6 +40,7 @@ const Categories = () => {
         <li className="list-none hover:font-normal">Health & Beauty</li>
         <img src={miniArrow} alt="" />
       </a>
+        </div>
     </div>
   );
 };
