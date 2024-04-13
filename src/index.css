@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-prev::before
+{
+    color: black;
+    position: absolute;
+    z-index: 9;
+}
+.slick-next::before
+{
+    color: black;
+    position: absolute;
+    z-index: 9;
+}

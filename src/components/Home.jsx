@@ -2,7 +2,6 @@ import React from "react";
 import Categories from "./Categories";
 import Banner from "./Banner";
 import FlashSales from "./FlashSales";
-import SalesItem from "./SalesItem";
 const Home = () => {
   return (
     <div className="w-full">
@@ -12,7 +11,6 @@ const Home = () => {
           <Banner />
         </div>
         <FlashSales/>
-        <SalesItem/>
       </div>
     </div>
   );

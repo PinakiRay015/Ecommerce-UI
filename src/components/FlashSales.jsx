@@ -11,11 +11,11 @@ const FlashSales = () => {
             <p className='text-[#DB4444] font-poppins font-semibold text-[16px]'>Today's</p>
         </header>
         {/* mini header  */}
-        <header className='flex items-end justify-between'>
+        <header className='flex items-end '>
             {/* heading  */}
             <p className='font-inter text-[36px] font-semibold leading-7'>Flash Sales</p>
             {/* timer */}
-            <div className='flex items-center w-[302px] justify-between mr-[20rem]'>
+            <div className='flex items-center w-[302px] justify-between ml-[10rem]'>
                 <div className='leading-7'>
                     <p className='text-[12px] font-medium font-poppins'>Days</p>
                     <p className='text-[32px] font-inter font-bold'>03</p>
@@ -35,11 +35,6 @@ const FlashSales = () => {
                     <p className='text-[12px] font-medium font-poppins'>Seconds</p>
                     <p className='text-[32px] font-inter font-bold'>56</p>
                 </div>
-            </div>
-            {/* direction */}
-            <div className='flex gap-1 items-center'>
-                <button className='w-9'><img src={leftArrowBlack} alt="" /></button>
-                <button className='w-9'><img src={rightArrowBlack} alt="" /></button>
             </div>
         </header>
       </div>
