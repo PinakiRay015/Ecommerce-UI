@@ -1,6 +1,5 @@
 import React from 'react'
-import rightArrowBlack from '../assets/rightArrowBlack.png'
-import leftArrowBlack from '../assets/leftArrowBlack.png'
+import SalesItem from './SalesItem'
 const FlashSales = () => {
   return (
     <div className='w-full mt-16'>
@@ -37,6 +36,11 @@ const FlashSales = () => {
                 </div>
             </div>
         </header>
+
+        {/* sales items section  */}
+        <div className='mt-5'>
+        <SalesItem/>
+        </div>
       </div>
     </div>
   )
