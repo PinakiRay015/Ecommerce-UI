@@ -2,8 +2,8 @@ import React from "react";
 import miniArrow from "../assets/miniArrowRightBlack.png";
 const Categories = () => {
   return (
-    <div className="lg:border-r md:w-[290px] pt-10 hidden md:block">
-      <div className="flex md:flex-col justify-between font-poppins font-light h-full">
+    <div className="lg:border-r lg:w-[290px] pt-10 hidden lg:block">
+      <div className="flex lg:flex-col justify-between font-poppins font-light h-full">
         <a className="flex justify-between items-center pr-4" href="/women">
           <li className="list-none hover:font-normal text-[12px]">Women's Fashion</li>
           <img className="" src={miniArrow} alt="" />

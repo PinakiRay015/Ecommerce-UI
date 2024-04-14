@@ -8,11 +8,28 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const SalesItem = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 755,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 615,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <div className="">
@@ -24,7 +41,7 @@ const SalesItem = () => {
                 {/* item image */}
                 <div className="relative h-[250px] bg-[#F5F5F5] grid place-content-center">
                   <nav className="flex justify-between absolute w-full top-0 px-1 py-1">
-                    <p className="bg-[#DB4444] px-3 rounded-md text-white w-fit font-extralight text-[14px] flex justify-center items-center">
+                    <p className="bg-[#DB4444] px-3 rounded-lg text-white w-fit font-extralight text-[14px] flex justify-center items-center">
                       {e.discount}
                     </p>
                     <img
