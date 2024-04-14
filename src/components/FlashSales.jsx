@@ -38,7 +38,7 @@ const FlashSales = () => {
         </header>
 
         {/* sales items section  */}
-        <div className='mt-5'>
+        <div className='mt-5 px-5'>
         <SalesItem/>
         </div>
       </div>

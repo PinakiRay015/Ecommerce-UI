@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens :
+      {
+        'md' : '976px',
+        'lg' : '1135px',
+        'xl' : '1159px'
+      }
+    },
     fontFamily:{
       'inter' : ['Inter'],
       'poppins' : ['Poppins']

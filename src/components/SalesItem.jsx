@@ -16,7 +16,7 @@ const SalesItem = () => {
   };
   return (
     <div className="">
-      <Slider className="pl-4" {...settings}>
+      <Slider className="" {...settings}>
         {items.map((e) => {
           return (
             <div className="flex px-2">

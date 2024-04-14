@@ -5,8 +5,8 @@ import FlashSales from "./FlashSales";
 const Home = () => {
   return (
     <div className="w-full">
-      <div className="max-w-screen-xl m-auto">
-        <div className="flex justify-between">
+      <div className="max-w-screen-xl m-auto px-3">
+        <div className="md:flex justify-between">
           <Categories />
           <Banner />
         </div>
