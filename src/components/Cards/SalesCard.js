@@ -1,10 +1,10 @@
-import console from "../assets/flash sales items/console.png";
-import keyboard from "../assets/flash sales items/keyboard.png";
-import chair from "../assets/flash sales items/chair.png";
-import monitor from "../assets/flash sales items/monitor.png";
-import mouse from "../assets/flash sales items/mouse.png";
-import headset from "../assets/flash sales items/headset.png";
-import desk from "../assets/flash sales items/desk.png";
+import console from "../../assets/flash sales items/console.png";
+import keyboard from "../../assets/flash sales items/keyboard.png";
+import chair from "../../assets/flash sales items/chair.png";
+import monitor from "../../assets/flash sales items/monitor.png";
+import mouse from "../../assets/flash sales items/mouse.png";
+import headset from "../../assets/flash sales items/headset.png";
+import desk from "../../assets/flash sales items/desk.png";
 const items = [
   {
     discount: "-40%",

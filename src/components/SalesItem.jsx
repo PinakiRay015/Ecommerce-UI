@@ -1,8 +1,7 @@
 import React from "react";
 import wishlist from "../assets/wishlist.png";
-import console from "../assets/flash sales items/console.png";
 import Ratings from "./Ratings";
-import items from "./SalesCard";
+import items from "./Cards/SalesCard";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
