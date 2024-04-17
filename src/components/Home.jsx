@@ -3,6 +3,7 @@ import Categories from "./Categories";
 import Banner from "./Banner";
 import FlashSales from "./FlashSales";
 import MainCategory from "./MainCategory";
+import BestSellings from "./BestSellings";
 const Home = () => {
   return (
     <div className="w-full">
@@ -13,6 +14,7 @@ const Home = () => {
         </div>
         <FlashSales/>
         <MainCategory/>
+        <BestSellings/>
       </div>
     </div>
   );
