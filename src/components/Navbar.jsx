@@ -14,7 +14,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="w-full h-16 border-b sticky z-9 top-0 bg-white">
+    <div className="w-full h-16 border-b sticky z-10 top-0 bg-white">
       <div className="h-full px-3 max-w-screen-xl m-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
         <p onClick={openMenu} className="lg:hidden sm:text-[24px]"><HiMenuAlt2 /></p>

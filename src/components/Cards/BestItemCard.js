@@ -30,9 +30,9 @@ const myBestItems = [
     },
     {
       discount: "-25%",
-      img: chair,
+      img: bookself,
       name: "Small BookSelf",
-      oldprice: "$360",
+      newprice: "$360",
       stars: "5",
     }
   ];
