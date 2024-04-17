@@ -50,6 +50,9 @@ const SalesItem = () => {
                     />
                   </nav>
                   <img className="w-[8rem]" src={e.img} alt="" />
+                  <footer className="h-[41px] flex items-center justify-center bg-black bottom-0 absolute w-full">
+                    <p className="text-white text-[16px] font-poppins">Add to cart</p>
+                  </footer>
                 </div>
                 {/* item description */}
                 <div className="leading-7 mt-2">
