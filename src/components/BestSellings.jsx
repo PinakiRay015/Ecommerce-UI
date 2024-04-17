@@ -1,5 +1,5 @@
 import React from 'react'
-
+import BestItems from './BestItems'
 const BestSellings = () => {
   return (
     <div className='w-full mt-16'>
@@ -38,6 +38,9 @@ const BestSellings = () => {
         </header>
 
         {/* sales items section  */}
+        <div className='mt-5 px-5'>
+            <BestItems/>
+        </div>
 
       <div className='flex justify-center'>
         <button className='bg-[#DB4444] px-[48px] py-[16px] font-medium font-poppins text-[16px] text-white rounded mt-20'>View All Products</button>
